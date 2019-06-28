@@ -1,29 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Contrail+One|Oswald&display=swap');
 
+/* Background colour of the page as well as the fonts used on the page in the body part of the website */
 body {
-    background-color: black;
+
+    background: #dcc7aa;
     font-family: 'Contrail One', cursive;
-    font-size: 16px;
-
+    font-size: 18px;
 }
 
-
-/* Navigation */
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li a {
-    text-transform: none;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-
-    background-color: black;
-    color: white
-}
-
+/* Set of Heading styles */
 h1,
 h2,
 h3,
@@ -33,18 +18,87 @@ h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+/* Navigation */
+
+nav {}
+
+nav ul li {
+    display: inline;
+    color: white;
+    margin: 0 auto;
+    padding: 15px;
+    /*    border: 1px solid black;*/
+}
+
+nav {
+    background-color: ;
+}
+
+/*
+main {
+    background-color: #dcc7aa;
+}
+*/
+
+.main-content {
+    margin-top: 100px;
+}
+
+footer {
+    background-color: hotpink;
+}
+
+.main-image {
+    max-width: 980px;
+
+}
+
+
+nav ul li a {
+    text-transform: none;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+
+    background-color: black;
+    color: white
+}
+
+/* default link styles */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: lightgrey;
+}
+
+a:active {
+    color: red;
+}
+
+
+
+
+
+
+
 h1 {
     font-size: 30px;
     margin: 20px 0;
-    margin:
-        text-align: center;
+    color: white;
+    /*    border: 1px solid black;*/
+    text-align: center;
 }
 
 h2 {
     font-size: 20px;
     color: aliceblue;
-    border: 1px,
-        text-align: center;
+    /*    border: 1px solid white;*/
+    text-align: center;
     text-transform: uppercase;
     line-height: 25px;
 }
@@ -61,8 +115,9 @@ p {
     text-align: center;
 }
 
+/* Width of the whole page */
 .wrapper {
-    width: 980px;
+    width: 960px;
     /* Margin TOP/BOTTOM left/right */
     margin: 0 auto;
     text-align: center;
@@ -70,7 +125,7 @@ p {
 }
 
 
-
+/* Footer font size, colour and padding is where the box of the text is in */
 footer p {
     font-size: 16px;
     color: #ccccccc;
@@ -86,30 +141,20 @@ footer p {
 
 header {
     background color: firebrick;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
 }
 
-nav {
-    background-color: aqua;
-}
 
-nav {
-    background-color: aqua;
-}
 
-nav {
-    background-color: aqua;
-}
 
-main {
-    background-color: red;
+.hero-content {
+    background-image: url(../images/churchill-house-25.jpg);
+    height: 300px;
+    width: 100%;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-footer {
-    background-color: hotpink;
-}
-
-img {
-    max-width: 980px;
-}
-
-main image {}
