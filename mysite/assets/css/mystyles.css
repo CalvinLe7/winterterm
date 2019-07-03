@@ -5,7 +5,7 @@ body {
 
     background: #dcc7aa;
     font-family: 'Contrail One', cursive;
-    font-size: 18px;
+    font-size: 1.000em;
 }
 
 /* Set of Heading styles */
@@ -18,52 +18,73 @@ h6 {
     font-family: 'Oswald', sans-serif;
 }
 
-/* Navigation */
+h1 {
+    font-size: 1.667em;
+    margin: 1.111em 0;
+    color: white;
+    /*    border: 1px solid black;*/
+    text-align: center;
+}
 
-nav {}
+h2 {
+    font-size: 1.111em;
+    color: white;
+    /*    border: 1px solid white;*/
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+h3 {
+    font-size: 1.111em;
+    margin: 1.111em 0;
+}
+
+p {
+    margin-bottom: 1.111em;
+    font-size: 0.889em;
+    line-height: 1.389em color: #6B7A8F;
+    text-align: center;
+    margin: 1.111em 0;
+}
 
 nav ul li {
     display: inline;
     color: white;
     margin: 0 auto;
-    padding: 15px;
+    padding: 0.833em;
     /*    border: 1px solid black;*/
 }
 
+/* Navigation */
 nav {
-    background-color: ;
+    background-color: #F7C331;
 }
-
-/*
-main {
-    background-color: #dcc7aa;
-}
-*/
 
 .main-content {
-    margin-top: 100px;
+    margin-top: 5.556em;
 }
 
 footer {
-    background-color: hotpink;
+    background-color: #6B7A8F;
 }
 
-.main-image {
-    max-width: 980px;
-
+/* Navigation Menu */
+nav ul {
+    margin: 10px;
 }
-
 
 nav ul li a {
     text-transform: none;
     text-decoration: none;
     color: white;
+    margin: 10px
 }
 
 nav ul li a:hover {
 
     background-color: black;
-    color: white
+    color: #6B7A8F
 }
 
 /* default link styles */
@@ -72,89 +93,76 @@ a {
     color: white;
 }
 
+/* Colour of the Navigation Bar once the cersor is being hovered over */
 a:hover {
     color: lightgrey;
 }
 
+/* The Colour of the Navigation Bar once been accessed */
 a:active {
     color: red;
 }
 
-
-
-
-
-
-
-h1 {
-    font-size: 30px;
-    margin: 20px 0;
-    color: white;
-    /*    border: 1px solid black;*/
-    text-align: center;
-}
-
-h2 {
-    font-size: 20px;
-    color: aliceblue;
-    /*    border: 1px solid white;*/
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 25px;
-}
-
-h3 {
-    font-size: 20px;
-    margin: 20px 0;
-}
-
-p {
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 25px color: #fffff;
-    text-align: center;
-}
-
 /* Width of the whole page */
 .wrapper {
-    width: 960px;
+    width: 53.333em;
     /* Margin TOP/BOTTOM left/right */
     margin: 0 auto;
     text-align: center;
 
 }
 
+/* Max Width and Min width of the screen on oPhone or smaller devices */
+@media screen and (max-device-width: 26.667em; and min-device-width: 20.778em; ) {
+    .wrapper {
+        width: 98%;
+    }
+}
 
 /* Footer font size, colour and padding is where the box of the text is in */
 footer p {
-    font-size: 16px;
-    color: #ccccccc;
-    padding: 20px 0;
-
+    font-size: 0.889em;
+    color: #DCC7AA;
+    padding: 1.667em 0;
 }
 
-
-
-
-
-
-
 header {
-    background color: firebrick;
+    background-color: #F7C331;
     position: fixed;
     width: 100%;
     top: 0;
-
 }
-
-
-
 
 .hero-content {
     background-image: url(../images/churchill-house-25.jpg);
-    height: 300px;
+    height: 16.667em;
     width: 100%;
     padding-top: 100px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+/* The Grind of Images and Text in the centre of the screen */
+.row {
+    margin: 1.111em 0;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+
+}
+
+.column img {
+    max-width: 22.222em;
+    margin: 0.556em;
+    /*
+    border: 1px solid #fff;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 20px 20px 0;
+*/
 }
