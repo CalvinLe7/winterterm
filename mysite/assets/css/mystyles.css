@@ -18,12 +18,19 @@ h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+/* Header Tag */
 h1 {
     font-size: 1.667em;
     margin: 1.333em 0;
     color: white;
     /*    border: 1px solid black;*/
     text-align: center;
+}
+
+/* Changing the Position of the Header*/
+.desc-header {
+    position: relative;
+    top: 2.778em;
 }
 
 h2 {
@@ -144,6 +151,7 @@ header {
     top: 0;
 }
 
+/* Background image on the page*/
 .Backimage {
     background-image: url(../images/churchill-house-23.2.jpg);
     height: 16.667em;
@@ -151,7 +159,26 @@ header {
     padding-top: 5.556em;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+/* Background image on the page*/
+.BackimageDesc {
+    background-image: url(../images/churchill-house-1.2.jpg);
+    height: 16.667em;
+    width: 100%;
+    padding-top: 5.556em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Background image on the page*/
+.BackimageDesc2 {
+    background-image: url(../images/churchill-house-25.2.jpg);
+    height: 16.667em;
+    width: 100%;
+    padding-top: 5.556em;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Hero Image banner on the top of the Home Page */
@@ -174,27 +201,29 @@ header {
     background-size: cover;
 }
 
-.hero-content-Hist {
-    background-image: url(../images/churchill-house-24.jpg);
-    height: 16.667em;
-    width: 100%;
-    padding-top: 5.556em;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hero-content-sign {
-    background-image: url(../images/churchill-house-24.jpg);
-    height: 16.667em;
-    width: 100%;
-    padding-top: 5.556em;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 /* Hero Image banner on the top of the Architect Page */
 .hero-content-Arch {
     background-image: url(../images/churchill-house-17.2.jpg);
+    height: 16.667em;
+    width: 100%;
+    padding-top: 5.556em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Hero Image banner on the top of the History Page */
+.hero-content-Hist {
+    background-image: url(../images/churchill-house-1.2.jpg);
+    height: 16.667em;
+    width: 100%;
+    padding-top: 5.556em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Hero Image banner on the top of the Significance Page */
+.hero-content-Sign {
+    background-image: url(../images/churchill-house-5.2.png);
     height: 16.667em;
     width: 100%;
     padding-top: 5.556em;
