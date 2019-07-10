@@ -4,7 +4,7 @@
 body {
 
     background: #dcc7aa;
-    font-family: 'Contrail One', cursive;
+    font-family: 'Oswald', sans-serif;
     font-size: 1.000em;
 }
 
@@ -15,21 +15,21 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Contrail One', cursive;
 }
 
 /* Header Tag */
 h1 {
     font-size: 1.667em;
     margin: 1.333em 0;
-    color: white;
+    color: orangered;
     /*    border: 1px solid black;*/
     text-align: center;
 }
 
 /* Changing the Position of the Header*/
 .desc-header {
-    position: relative;
+    /*    position: relative;*/
     top: 2.778em;
 }
 
@@ -174,6 +174,15 @@ header {
 /* Background image on the page*/
 .BackimageDesc2 {
     background-image: url(../images/churchill-house-25.2.jpg);
+    height: 16.667em;
+    width: 100%;
+    padding-top: 5.556em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.BackimageArch {
+    background-image: url(../images/churchill-house-17.2.jpg);
     height: 16.667em;
     width: 100%;
     padding-top: 5.556em;
