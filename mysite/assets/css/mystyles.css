@@ -98,7 +98,6 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-
     background-color: black;
     color: #6B7A8F
 }
@@ -129,12 +128,54 @@ a:active {
 
 }
 
-/* Max Width and Min width of the screen on oPhone or smaller devices */
-@media screen and (max-device-width: 26.667em; and min-device-width: 20.778em; ) {
+/* Media Queries */
+
+
+
+/* Max Width and Min width of the screen on Phone or smaller devices */
+@media screen and (max-width: 768px) {
     .wrapper {
         width: 98%;
     }
+
+    .nav ul li a {
+        width: 46%;
+    }
+
+    .h1 {
+        width: 46%;
+    }
+
+    .nav ul {
+        width: 46%;
+    }
+
+    .column {
+        width: 90%
+    }
 }
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        width: 98%;
+    }
+
+    .nav ul li a {
+        width: 92%;
+    }
+
+    .h1 {
+        width: 92%;
+    }
+
+    .nav ul {
+        width: 92%;
+    }
+}
+
+
+
+
 
 /* Footer font size, colour and padding is where the box of the text is in */
 footer p {
@@ -256,11 +297,4 @@ header {
 .column img {
     max-width: 22.222em;
     margin: 0.556em;
-    /*
-    border: 1px solid #fff;
-    float: left;
-    text-align: center;
-    padding: 20px;
-    margin: 20px 20px 20px 0;
-*/
 }
