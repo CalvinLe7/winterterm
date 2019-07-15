@@ -128,6 +128,7 @@ a:active {
 
 }
 
+<<<<<<< HEAD
 /* Media Queries */
 
 
@@ -154,6 +155,10 @@ a:active {
         width: 90%
     }
 }
+=======
+
+
+>>>>>>> 12dfb6e63bd2897236c616cf5aa08054d36131eb
 
 @media screen and (max-width: 480px) {
     .wrapper {
@@ -297,4 +302,57 @@ header {
 .column img {
     max-width: 22.222em;
     margin: 0.556em;
+}
+
+/* Media Queries */
+
+
+/* Max Width and Min width of the screen on Phone or smaller devices */
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 98%;
+    }
+
+
+    .nav ul li a {
+        width: 46%;
+    }
+
+    .h1 {
+        width: 46%;
+    }
+
+    .nav ul {
+        width: 46%;
+    }
+
+    .column {
+        width: 100%
+    }
+
+    main ul {
+        margin: 30px;
+    }
+
+    main p {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        width: 98%;
+    }
+
+    .nav ul li a {
+        width: 92%;
+    }
+
+    .h1 {
+        width: 92%;
+    }
+
+    .nav ul {
+        width: 92%;
+    }
 }
