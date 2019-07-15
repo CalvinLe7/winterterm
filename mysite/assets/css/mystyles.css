@@ -128,7 +128,7 @@ a:active {
 
 }
 
-<<<<<<< HEAD
+
 /* Media Queries */
 
 
@@ -155,10 +155,7 @@ a:active {
         width: 90%
     }
 }
-=======
 
-
->>>>>>> 12dfb6e63bd2897236c616cf5aa08054d36131eb
 
 @media screen and (max-width: 480px) {
     .wrapper {
@@ -306,6 +303,7 @@ header {
 
 /* Media Queries */
 
+@media screen and (max-width:)
 
 /* Max Width and Min width of the screen on Phone or smaller devices */
 @media screen and (max-width: 768px) {
@@ -327,7 +325,8 @@ header {
     }
 
     .column {
-        width: 100%
+        width: 100%;
+        float: left;
     }
 
     main ul {
@@ -354,5 +353,14 @@ header {
 
     .nav ul {
         width: 92%;
+    }
+
+    main p {
+        padding: 15px;
+    }
+
+    .column {
+        width: 92%;
+        float: left;
     }
 }
