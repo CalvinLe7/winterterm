@@ -232,7 +232,6 @@ header {
     background-size: cover;
 }
 
-
 /* The Grind of Images and Text in the centre of the screen */
 .row {
     margin: 1.111em 0;
@@ -257,7 +256,6 @@ header {
     .wrapper {
         width: 98%;
     }
-
 
     .nav ul li a {
         width: 46%;
@@ -290,49 +288,180 @@ header {
     header {
         padding-bottom: 16px;
     }
-}
 
-
-
-@media screen and (max-width: 480px) {
-    .wrapper {
-        width: 92%;
+    .column img {
+        max-width: 20.222em;
     }
 
-    .nav ul li a {
-        width: 75%;
-        padding: 15px;
-        margin: 0;
+
+    @media screen and (max-device-width: 376px) {
+        .wrapper {
+            width: 92%;
+        }
+
+        .hero-content {}
+
+        nav ul li:first-of-type {
+            display: none;
+        }
+
+        nav ul li {
+            padding: 0 0.2em 0 0;
+        }
+
+        nav ul li a {
+
+            padding: 0px;
+            margin: 0;
+        }
+
+        h1 {
+            width: 92%%;
+        }
+
+        nav ul {
+            width: 92%;
+            margin: 0;
+        }
+
+        main p {
+            padding: 15px;
+        }
+
+        .column {
+            width: 100%;
+
+        }
+
+        .row {
+            width: 100%;
+        }
+
+        header {
+            padding-bottom: 16px;
+        }
+
+        main ul {
+            margin: 30px;
+        }
+
+        .column img {
+            max-width: 20.222em;
+        }
+
+
     }
 
-    .h1 {
-        width: 92%%;
+    @media screen and (max-device-width: 414px) {
+        .wrapper {
+            width: 92%;
+        }
+
+        .hero-content {}
+
+        nav ul li:first-of-type {
+            display: none;
+        }
+
+        nav ul li {
+            padding: 0 0.2em 0 0;
+        }
+
+        nav ul li a {
+
+            padding: 0px;
+            margin: 0;
+        }
+
+        h1 {
+            width: 92%%;
+        }
+
+        nav ul {
+            width: 92%;
+            margin: 0;
+        }
+
+        main p {
+            padding: 15px;
+        }
+
+        .column {
+            width: 100%;
+
+        }
+
+        .row {
+            width: 100%;
+        }
+
+        header {
+            padding-bottom: 16px;
+        }
+
+        main ul {
+            margin: 30px;
+        }
+
+        .column img {
+            max-width: 20.222em;
+        }
     }
 
-    .nav ul {
-        width: 92%;
-        margin: 0;
+    @media screen and (max-device-width: 320px) {
+        .wrapper {
+            width: 92%;
+        }
+
+        .hero-content {}
+
+        nav ul li:first-of-type {
+            display: none;
+        }
+
+        nav ul li {
+            padding: 0 0 0 0;
+        }
+
+        nav ul li a {
+
+            padding: 0px;
+            margin: 0;
+        }
+
+        h1 {
+            width: 92%%;
+        }
+
+        nav ul {
+            width: 92%;
+            margin: 0;
+        }
+
+        main p {
+            padding: 15px;
+        }
+
+        .column {
+            width: 100%;
+
+        }
+
+        .row {
+            width: 100%;
+        }
+
+        header {
+            padding-bottom: 16px;
+        }
+
+        main ul {
+            margin: 30px;
+        }
+
+        .column img {
+            max-width: 17.222em;
+        }
+
+
     }
-
-    main p {
-        padding: 15px;
-    }
-
-    .column {
-        width: 75%;
-
-    }
-
-    .row {
-        width: 75%;
-    }
-
-    header {
-        padding-bottom: 16px;
-    }
-
-    main ul {
-        margin: 30px;
-    }
-
-}
