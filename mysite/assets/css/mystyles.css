@@ -128,57 +128,6 @@ a:active {
 
 }
 
-
-/* Media Queries */
-
-
-
-/* Max Width and Min width of the screen on Phone or smaller devices */
-@media screen and (max-width: 768px) {
-    .wrapper {
-        width: 98%;
-    }
-
-    .nav ul li a {
-        width: 46%;
-    }
-
-    .h1 {
-        width: 46%;
-    }
-
-    .nav ul {
-        width: 46%;
-    }
-
-    .column {
-        width: 90%
-    }
-}
-
-
-@media screen and (max-width: 480px) {
-    .wrapper {
-        width: 98%;
-    }
-
-    .nav ul li a {
-        width: 92%;
-    }
-
-    .h1 {
-        width: 92%;
-    }
-
-    .nav ul {
-        width: 92%;
-    }
-}
-
-
-
-
-
 /* Footer font size, colour and padding is where the box of the text is in */
 footer p {
     font-size: 0.889em;
@@ -303,8 +252,6 @@ header {
 
 /* Media Queries */
 
-@media screen and (max-width:)
-
 /* Max Width and Min width of the screen on Phone or smaller devices */
 @media screen and (max-width: 768px) {
     .wrapper {
@@ -314,6 +261,8 @@ header {
 
     .nav ul li a {
         width: 46%;
+        padding: 15px;
+        margin: 0;
     }
 
     .h1 {
@@ -322,6 +271,7 @@ header {
 
     .nav ul {
         width: 46%;
+        margin: 0;
     }
 
     .column {
@@ -336,23 +286,32 @@ header {
     main p {
         padding: 15px;
     }
+
+    header {
+        padding-bottom: 16px;
+    }
 }
+
+
 
 @media screen and (max-width: 480px) {
     .wrapper {
-        width: 98%;
+        width: 92%;
     }
 
     .nav ul li a {
-        width: 92%;
+        width: 75%;
+        padding: 15px;
+        margin: 0;
     }
 
     .h1 {
-        width: 92%;
+        width: 92%%;
     }
 
     .nav ul {
         width: 92%;
+        margin: 0;
     }
 
     main p {
@@ -360,7 +319,20 @@ header {
     }
 
     .column {
-        width: 92%;
-        float: left;
+        width: 75%;
+
     }
+
+    .row {
+        width: 75%;
+    }
+
+    header {
+        padding-bottom: 16px;
+    }
+
+    main ul {
+        margin: 30px;
+    }
+
 }
