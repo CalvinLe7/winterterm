@@ -255,7 +255,7 @@ header {
 
 /* What will be displayed on different screen sizes */
 
-/* When Screen is under 320px This is what will be displayed on screen */
+/* When Screen is under 320px This is what will be displayed on screen Android/ iPhone */
 
 @media screen and (max-device-width: 480px) {
     .wrapper {
@@ -345,169 +345,6 @@ header {
 }
 
 
-/*
-@media screen and (max-device-width: 376px) {
-    .wrapper {
-        width: 92%;
-    }
-
-    .hero-content-Desc {
-        background-position: top;
-    }
-
-    .hero-content {
-        background-position: center;
-    }
-
-    .BackimageDesc {
-        background-position: center;
-    }
-
-    .BackimageDesc2 {
-        background-position: center;
-    }
-
-    .hero-content-Arch {
-        background-position: center;
-    }
-
-
-
-    nav ul li:first-of-type {
-        display: none;
-    }
-
-    nav ul li {
-        display: inherit;
-    }
-
-    nav ul li {
-        padding: 0px 0.2em 0 36px;
-    }
-
-    nav ul li a {
-
-        padding: 0px;
-        margin: 0;
-    }
-
-    h1 {
-        width: 92%%;
-    }
-
-    nav ul {
-        width: 92%;
-        margin: 0;
-    }
-
-    main p {
-        padding: 15px;
-    }
-
-    .column {
-        width: 100%;
-
-    }
-
-    .row {
-        width: 100%;
-    }
-
-    header {
-        padding-bottom: 16px;
-    }
-
-    main ul {
-        margin: 30px;
-    }
-
-    .column img {
-        max-width: 18.222em;
-    }
-
-
-}
-
-@media screen and (max-device-width: 414px) {
-    .wrapper {
-        width: 92%;
-    }
-
-    .hero-content-Desc {
-        background-position: top;
-    }
-
-    .hero-content {
-        background-position: center;
-    }
-
-    .BackimageDesc {
-        background-position: center;
-    }
-
-    .BackimageDesc2 {
-        background-position: center;
-    }
-
-    .hero-content-Arch {
-        background-position: center;
-    }
-
-    nav ul li {
-        display: inherit;
-    }
-
-    nav ul li:first-of-type {
-        display: none;
-    }
-
-    nav ul li {
-        padding: 0px 0.2em 0 36px;
-    }
-
-    nav ul li a {
-
-        padding: 0px;
-        margin: 0;
-    }
-
-    h1 {
-        width: 92%%;
-    }
-
-    nav ul {
-        width: 92%;
-        margin: 0;
-    }
-
-    main p {
-        padding: 15px;
-    }
-
-    .column {
-        width: 100%;
-
-    }
-
-    .row {
-        width: 100%;
-    }
-
-    header {
-        padding-bottom: 16px;
-    }
-
-    main ul {
-        margin: 30px;
-    }
-
-    .column img {
-        max-width: 20.222em;
-    }
-}*/
-
-
-
 /* Screen For Ipad or Tablets */
 @media screen and (max-width: 768px) {
     .wrapper {
@@ -556,6 +393,7 @@ header {
     }
 }
 
+/* Screen For Ipad or Tablets */
 @media screen and (max-device-width: 769px) {
     .wrapper {
         width: 98%;
